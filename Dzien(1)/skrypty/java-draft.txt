@@ -3,10 +3,7 @@
 function Person(name)
 {
   var pesel  = "000000";
-  
-  
   this.name = name;
-  
   this.getPesel = function() {
     return pesel;
   }
@@ -140,5 +137,74 @@ a = 10; // bedzie error
 
 console.log(a);
 
+#5. Mapy (LINQu)
 
 
+var a = [1,2,3,4,5,6,8,9];
+
+var a1 = [];
+
+for (var i=0;i<a.lenght;i++)  {
+    a1.push(a[i] * 10);
+  }
+
+var a2 = a.map(function(item) {
+  return item*10;
+}); 
+
+console.log(a2);
+
+
+#6. Every (ka¿dy element)
+
+var a = [1,2,3,4,5,6,8,9];
+
+var ok = a.every(function(item) {
+  return item < 10;
+});
+
+
+
+console.log(ok);
+
+#7. Some (chocia¿ jeden element)
+
+var a = [1,2,3,4,5,6,8,9];
+
+var ok = a.some(function(item) {
+  return item === 14;
+});
+
+console.log(ok);
+
+#8. forEach (rzadko, efekty uboczne)
+
+var a = [1,2,3,4,5,6,8,9];
+
+var ok = a.forEach(function (item)
+                  {
+  console.log(item + "ok");
+})
+
+console.log(ok);
+
+#9. Filter (where z c#)
+
+var a = [1,2,3,4,5,6,8,9];
+
+var ok = a.filter(function(item) {
+  return  item % 2 === 0;
+});
+
+console.log(ok);
+
+
+#10. Reduce (akumulator)
+
+var a = [1,2,3,4,5,6,8,9];
+
+var total = a.reduce(function(acc, item) {
+  return acc + item;
+}, 0);
+
+console.log(total);
