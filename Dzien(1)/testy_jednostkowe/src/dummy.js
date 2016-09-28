@@ -1,2 +1,4 @@
-var dummy = 10;
+var dummy = [1,2,3];
 
+
+//
