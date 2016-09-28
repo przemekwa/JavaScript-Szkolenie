@@ -1,4 +1,4 @@
-#1. Zasiêg zmiennych
+----------------------------------------------------1. Zasiêg zmiennych
 
 function Person(name)
 {
@@ -13,7 +13,7 @@ var p1 = new Person("Przemek");
 console.log(p1.name);
 console.log(p1.getPesel());
 
-#2 Proptotype
+----------------------------------------------------2. Proptotype
 
 function Person(name)
 {
@@ -40,7 +40,7 @@ var p1 = new Person("Przemek");
 
 console.log(p1.name);
 
-##3. Wywolanie asnynchroniczne
+----------------------------------------------------3. Wywolanie asnynchroniczne
 
 var name = "Dawid";
 
@@ -97,7 +97,7 @@ var p1 = new Person("Przemek");
 
 p1.greet();
 
-##Kolejny sposob na this;
+----------------------------------------------------Kolejny sposob na this;
 
 
 function Person(name)
@@ -129,7 +129,7 @@ p1.greet();
 
 
 
-##4. Use strict
+----------------------------------------------------4. Use strict
 
 'use strict';
 
@@ -137,7 +137,7 @@ a = 10; // bedzie error
 
 console.log(a);
 
-#5. Mapy (LINQu)
+----------------------------------------------------5. Mapy (LINQu)
 
 
 var a = [1,2,3,4,5,6,8,9];
@@ -155,7 +155,7 @@ var a2 = a.map(function(item) {
 console.log(a2);
 
 
-#6. Every (ka¿dy element)
+----------------------------------------------------6. Every (ka¿dy element)
 
 var a = [1,2,3,4,5,6,8,9];
 
@@ -167,7 +167,7 @@ var ok = a.every(function(item) {
 
 console.log(ok);
 
-#7. Some (chocia¿ jeden element)
+----------------------------------------------------7. Some (chocia¿ jeden element)
 
 var a = [1,2,3,4,5,6,8,9];
 
@@ -177,7 +177,7 @@ var ok = a.some(function(item) {
 
 console.log(ok);
 
-#8. forEach (rzadko, efekty uboczne)
+----------------------------------------------------8. forEach (rzadko, efekty uboczne)
 
 var a = [1,2,3,4,5,6,8,9];
 
@@ -188,7 +188,7 @@ var ok = a.forEach(function (item)
 
 console.log(ok);
 
-#9. Filter (where z c#)
+----------------------------------------------------9. Filter (where z c#)
 
 var a = [1,2,3,4,5,6,8,9];
 
@@ -199,7 +199,7 @@ var ok = a.filter(function(item) {
 console.log(ok);
 
 
-#10. Reduce (akumulator)
+----------------------------------------------------10. Reduce (akumulator)
 
 var a = [1,2,3,4,5,6,8,9];
 
