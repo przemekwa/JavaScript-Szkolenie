@@ -132,6 +132,13 @@ p1.greet();
 
 
 
+##4. Use strict
+
+'use strict';
+
+a = 10; // bedzie error
+
+console.log(a);
 
 
 
