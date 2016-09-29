@@ -1,5 +1,4 @@
-
-var _ = require("lodash");
+var _ = require('lodash');
 
 var worker = function(userCollection) {
 
@@ -13,5 +12,3 @@ var worker = function(userCollection) {
 
 // export the worker function as a nodejs module
 module.exports = worker;
-
-
