@@ -1,5 +1,7 @@
 $color: #dab440;
 
-bofy{
-  background: $color;
+body{
+  background: darken($color, 20);
+  backface-visibility:  $color;
+  color: red;
 }

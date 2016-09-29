@@ -1,2 +1,4 @@
-bofy {
-  background: #dab440; }
+body {
+  background: #97791d;
+  backface-visibility: #dab440;
+  color: red; }
