@@ -28,9 +28,8 @@ gulp.task('default',["styles", "views"], function () {
  gulp.watch('./*.pug', ['views'])
 })
 
-gulp.task('hello', function () {
- console.log("Hello World!")
+gulp.task('hello', ()=> console.log("Hello World!"));
 
-});
+
 
 
